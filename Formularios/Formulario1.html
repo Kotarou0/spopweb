@@ -2,17 +2,29 @@
     <head>
         <title>Formulário - Exemplo 1</title>
     </head>
-    <body>
-        <form>
+    <body bgcolor="#DB1717">
+        <form style="border: 1pt solid white; padding: 3pt;">
             <input type="text" name="nome"> <br>
             <input type="e-mail" name="email"> <br>
-            <input type="submit" name="enviar">
-        </form>
-
-        <form>
+            <input type="submit" name="enviar"> <br>
             <input type="checkbox" name="veiculo1" value="bicicleta"> Eu tenho uma bicicleta <br>
             <input type="checkbox" name="veiculo2" value="carro"> Eu tenho um carro <br>
-            <input type="checkbox" name="veiculo3" value="moto"> Eu tenho uma moto
+            <input type="checkbox" name="veiculo3" value="moto"> Eu tenho uma moto <br>
+            Selecione sua cor preferida: <input type="color" name="favcor" value="#0000FF"> <br>
+            Data de nascimento: <input type="date" name="nascimento"> <br>
+            Data de nascimento: <input type="datetime-local" name="bdaytime"> <br>
+            <input type="file" name="arquivos"> <br>
+            <input type="hidden" id="inputOculto" name="inputOculto" value="meuvalor">
+            <input type="image" src="https://media.tenor.com/mI3uGmhbi6sAAAAd/sonic-unleashed-werehog.gif" alt="Submit" width="240" height="240"> <br>
+            Quantidade (entre 1 e 5): <input type="number" name="quantidade" min="1" max="5"> <br>
+            <input type="password" name="senha" placeholder="Digite sua Senha"> <br>
+            <p>Qual sua idade?</p>
+            <input type="radio" name="idade" value="18_22">18 a 22 <br>
+            <input type="radio" name="idade" value="23_30">23 a 30 <br>
+            <input type="radio" name="idade" value="mais31">acima de 31<br>
         </form>
+
+        <hr>
+        <img src="https://3.bp.blogspot.com/-4l2XNy8hWlc/UfUibCG9EjI/AAAAAAAAGzg/Oel87jf3sGg/s1600/filhotes+de+calopsita+%253B+calopsita+%252804%2529+-+Psita+Online+%257E+www.psitaonline.blogspot.com.jpg">
     </body>
 </html>

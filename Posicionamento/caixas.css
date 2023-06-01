@@ -3,12 +3,20 @@
     border-color: red purple peru palevioletred;
     width: 20%;
     height: 500pt;
-    background-image: url(https://cdn.awsli.com.br/2500x2500/1946/1946743/produto/178751940/737bfd0ed1.jpg);
-    background-size: 100pt 50pt;
     padding: 20pt;
     margin: 1cm;
     float: left;
     color:chartreuse;
+}
+
+.imagem {
+    margin: 10pt;
+    float: right;
+}
+
+.noticias {
+    background-image: url(https://cdn.awsli.com.br/2500x2500/1946/1946743/produto/178751940/737bfd0ed1.jpg);
+    background-size: 100pt 50pt;
 }
 
 main {
@@ -29,5 +37,12 @@ h1 {
 }
 
 .limpar {
-    clear:left;
+    clear: both;
+}
+
+header {
+    height: 45%;
+    background-color: aqua;
+    background-image: url(https://sitecontent.kumon.com.br/sitestg/kumon-website-pt/img/logo-black-kumon.png);
+    background-size: 100%;
 }

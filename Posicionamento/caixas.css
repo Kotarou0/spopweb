@@ -46,3 +46,8 @@ header {
     background-image: url(https://sitecontent.kumon.com.br/sitestg/kumon-website-pt/img/logo-black-kumon.png);
     background-size: 100%;
 }
+
+footer {
+    background-image: url(https://i.ytimg.com/vi/Vdbb0rQ6C1I/maxresdefault.jpg);
+    height: 45%;
+}

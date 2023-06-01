@@ -1,6 +1,33 @@
 .noticias {
-    border: 3px dashed                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
-    width: 500pt;
+    border: 3pt dashed;
+    border-color: red purple peru palevioletred;
+    width: 20%;
     height: 500pt;
     background-image: url(https://cdn.awsli.com.br/2500x2500/1946/1946743/produto/178751940/737bfd0ed1.jpg);
+    background-size: 100pt 50pt;
+    padding: 20pt;
+    margin: 1cm;
+    float: left;
+    color:chartreuse;
+}
+
+main {
+    background-color: burlywood;
+}
+
+p {
+    text-indent: 10%;
+}
+
+h1 {
+    color:gold;
+    border: 13pt double;
+    border-color: red;
+    border-radius: 6.5pt;
+    margin: 30pt;
+    text-align: center;
+}
+
+.limpar {
+    clear:left;
 }

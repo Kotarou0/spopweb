@@ -1,0 +1,15 @@
+body {
+    background-color: coral;
+}
+
+#cabecalho, #rodape {
+    margin: 10pt auto;
+    width: 690pt;
+    background-color: crimson;
+    text-align: center;
+}
+
+#principal {
+    margin: 10pt auto;
+    background-color: aliceblue;
+}

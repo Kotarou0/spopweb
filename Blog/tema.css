@@ -3,6 +3,14 @@ body {
     background-image: url(https://publicdomainvectors.org/photos/nferraz_Brazilian_map.png);
 }
 
+#cabecalho {
+    background-image: url(https://vectorflags.s3.amazonaws.com/flags/br-splat-01.png);
+    background-size: 40%;
+    background-position-x: right;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+}
+
 #cabecalho, #rodape {
     margin: 10pt auto;
     width: 80%;

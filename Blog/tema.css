@@ -1,15 +1,78 @@
 body {
-    background-color: coral;
+    background-color: rgb(39, 48, 69);
+    background-image: url(https://publicdomainvectors.org/photos/nferraz_Brazilian_map.png);
 }
 
 #cabecalho, #rodape {
     margin: 10pt auto;
-    width: 690pt;
-    background-color: crimson;
+    width: 80%;
+    background-color: greenyellow;
     text-align: center;
+    clear: both;
+}
+
+.postagem, .lateral {
+    background-color: #f9ff84;
+    margin: 10pt auto;
+}
+
+.postagem {
+    margin: 10pt auto;
+    width: 60%;
+    float: left;
+    padding: 10pt 10pt;
+}
+
+p {
+    text-indent: 30pt;
+    text-justify: auto;
+}
+
+.lateral {
+    width: 20%;
+    float: right;
 }
 
 #principal {
+    width: 80%;
     margin: 10pt auto;
-    background-color: aliceblue;
+    background-color: white;
+}
+
+#cabecalho_nome, #cabecalho_menu {
+    padding: 10pt;
+    color: black;
+    margin-bottom: 0;
+}
+
+.laranja {
+    background-color: orange;
+    border: orange solid 2pt;
+    border-radius: 6.9pt;
+}
+
+#cabecalho_menu a{
+    text-decoration: none;
+    color:black;
+    padding: 5pt 10pt;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+.postagem h2 {
+    color: rgb(0, 69, 0);
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px;
+}
+
+.postagem p {
+    color: rgb(25, 40, 23);
+}
+
+.lateral img {
+    width: 100%;
 }

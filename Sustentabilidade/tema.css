@@ -69,10 +69,6 @@ p {
     padding: 5pt 10pt;
 }
 
-a {
-    color: white;
-}
-
 a:hover {
     background-color: purple;
 }
@@ -85,7 +81,7 @@ a:hover {
     -webkit-text-stroke: 1px;
 }
 
-.postagem p {
+a, .postagem p, .postagem em, .lateral p {
     color: white;
 }
 

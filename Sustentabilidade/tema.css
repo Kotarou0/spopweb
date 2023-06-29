@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://cdn.custom-cursor.com/collections/166/cover-collection-among-us.png);
+    background-size: 10%;
+}
+
+#cabecalho {
+    background-image: url(https://news.miami.edu/_assets/images-stories/2019/04/hero-spacedebris_940x529.jpg);
+    background-size: 40%;
+    background-position-x: right;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+}
+
+#cabecalho, #rodape {
+    margin: 10pt auto;
+    width: 80%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+.postagem, .lateral {
+    background-color: black;
+    margin: 10pt auto;
+}
+
+.postagem {
+    margin: 10pt auto;
+    width: 60%;
+    float: left;
+    padding: 10pt 10pt;
+}
+
+p {
+    text-indent: 30pt;
+    text-justify: auto;
+}
+
+.lateral {
+    width: 20%;
+    float: right;
+    padding: 10pt 10pt;
+    padding-top: 0;
+}
+
+#principal {
+    width: 80%;
+    margin: 10pt auto;
+    background-color: black;
+}
+
+#cabecalho_nome, #cabecalho_menu {
+    padding: 10pt;
+    color: white;
+    margin-bottom: 0;
+}
+
+.roxo {
+    color: rgb(221, 109, 255);
+    background-color: purple;
+    border: purple outset 6pt;
+}
+
+#cabecalho_menu a{
+    text-decoration: none;
+    color: white;
+    padding: 5pt 10pt;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    background-color: purple;
+}
+
+.postagem h2, .lateral h2 {
+    color: rgb(221, 109, 255);
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px;
+}
+
+.postagem p {
+    color: white;
+}
+
+.lateral img {
+    width: 100%;
+}
+
+#cabecalho, .postagem, .lateral, #rodape {
+    border: 2pt dashed white;
+    box-shadow: 5pt 5pt white;
+}
